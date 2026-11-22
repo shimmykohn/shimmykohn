@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="./banner.svg" alt="A New York subway sign reading Shimmy Kohn, Uptown and The App Store, above a departures board listing iska, mySportly and Nuttery ops." width="100%">
+  <img src="./banner.svg" alt="A New York subway sign reading Shimmy Kohn, Uptown and The App Store, above a departures board listing iska, mySportly and custom software for businesses." width="100%">
 </p>
 
 I'm Shimmy, a developer in New York. I like taking an idea all the way: the data model, the backend, the app in your hand, and the boring parts that keep it running.
