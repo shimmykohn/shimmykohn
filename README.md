@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="./banner.svg" alt="shimmy kohn. Building iska in New York." width="100%">
+  <img src="./banner.svg" alt="A New York subway sign reading Shimmy Kohn, Uptown and The App Store, above a departures board listing iska, mySportly and Nuttery ops." width="100%">
 </p>
 
 I'm Shimmy, a developer in New York. I like taking an idea all the way: the data model, the backend, the app in your hand, and the boring parts that keep it running.
@@ -12,9 +12,7 @@ I'm Shimmy, a developer in New York. I like taking an idea all the way: the data
 
 ## On the side
 
-- **[mySportly](https://github.com/shimmykohn/mySportly)**: a native SwiftUI live TV app for iPhone and iPad that organizes a huge channel catalog around the teams and leagues you follow.
-- **Fammiliar**: a small PWA that helps sibling families coordinate Shabbos visits and reminders.
-- **Leagues**: a camp league tracker, built for one summer and used every day of it.
+**[mySportly](https://github.com/shimmykohn/mySportly)** is a native SwiftUI live TV app for iPhone and iPad that organizes a huge channel catalog around the teams and leagues you follow.
 
 ## What I reach for
 
