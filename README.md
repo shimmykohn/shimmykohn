@@ -12,7 +12,7 @@ I'm Shimmy, a developer in New York. I like taking an idea all the way: the data
 
 ## On the side
 
-- **mySportly**: a native SwiftUI live TV app for iPhone and iPad that organizes a huge channel catalog around the teams and leagues you follow.
+- **[mySportly](https://github.com/shimmykohn/mySportly)**: a native SwiftUI live TV app for iPhone and iPad that organizes a huge channel catalog around the teams and leagues you follow.
 - **Fammiliar**: a small PWA that helps sibling families coordinate Shabbos visits and reminders.
 - **Leagues**: a camp league tracker, built for one summer and used every day of it.
 
