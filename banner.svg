@@ -1,0 +1,82 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 340" width="1200" height="340" role="img" aria-label="shimmy kohn. Building iska in New York.">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0d1326"/>
+      <stop offset="0.55" stop-color="#161a3a"/>
+      <stop offset="1" stop-color="#0b2a33"/>
+    </linearGradient>
+    <radialGradient id="orbA" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#7c6cff" stop-opacity="0.6"/>
+      <stop offset="1" stop-color="#7c6cff" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="orbB" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#22d3b6" stop-opacity="0.75"/>
+      <stop offset="1" stop-color="#22d3b6" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="orbC" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#ff8a5b" stop-opacity="0.6"/>
+      <stop offset="1" stop-color="#ff8a5b" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="ink" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#ffffff"/>
+      <stop offset="1" stop-color="#b9c4ff"/>
+    </linearGradient>
+    <pattern id="dots" width="28" height="28" patternUnits="userSpaceOnUse">
+      <circle cx="2" cy="2" r="1.2" fill="#ffffff" fill-opacity="0.07"/>
+    </pattern>
+    <clipPath id="card"><rect width="1200" height="340" rx="28"/></clipPath>
+  </defs>
+
+  <style>
+    .name { font: 700 84px -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif; letter-spacing: -3px; }
+    .tag  { font: 500 26px -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif; fill: #c9d1f5; }
+    .mono { font: 500 17px ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; fill: #8f9bd1; letter-spacing: 1px; }
+    .a { animation: driftA 14s ease-in-out infinite alternate; }
+    .b { animation: driftB 18s ease-in-out infinite alternate; }
+    .c { animation: driftC 22s ease-in-out infinite alternate; }
+    .pulse { animation: pulse 2.4s ease-in-out infinite; transform-origin: 96px 268px; }
+    @keyframes driftA { from { transform: translate(0,0); } to { transform: translate(90px,40px); } }
+    @keyframes driftB { from { transform: translate(0,0); } to { transform: translate(-110px,-30px); } }
+    @keyframes driftC { from { transform: translate(0,0); } to { transform: translate(-60px,50px); } }
+    @keyframes pulse { 0%,100% { opacity: 1; transform: scale(1); } 50% { opacity: .45; transform: scale(1.5); } }
+    @media (prefers-reduced-motion: reduce) { * { animation: none !important; } }
+  </style>
+
+  <g clip-path="url(#card)">
+    <rect width="1200" height="340" fill="url(#bg)"/>
+    <circle class="a" cx="180" cy="40" r="260" fill="url(#orbA)"/>
+    <circle class="b" cx="1050" cy="300" r="300" fill="url(#orbB)"/>
+    <circle class="c" cx="780" cy="-20" r="200" fill="url(#orbC)"/>
+    <rect width="1200" height="340" fill="url(#dots)"/>
+
+    <!-- skyline -->
+    <g class="skyline" fill="#ffffff" fill-opacity="0.09">
+      <rect x="820" y="230" width="34" height="110"/>
+      <rect x="860" y="190" width="28" height="150"/>
+      <rect x="894" y="212" width="40" height="128"/>
+      <rect x="940" y="150" width="30" height="190"/>
+      <rect x="952" y="118" width="6" height="34"/>
+      <rect x="976" y="200" width="44" height="140"/>
+      <rect x="1026" y="168" width="26" height="172"/>
+      <rect x="1058" y="222" width="38" height="118"/>
+      <rect x="1102" y="184" width="30" height="156"/>
+      <rect x="1138" y="240" width="40" height="100"/>
+    </g>
+    <g fill="#ffd9a0" fill-opacity="0.55">
+      <rect x="946" y="170" width="5" height="7"/><rect x="958" y="196" width="5" height="7"/>
+      <rect x="866" y="214" width="5" height="7"/><rect x="1032" y="190" width="5" height="7"/>
+      <rect x="1108" y="208" width="5" height="7"/><rect x="988" y="226" width="5" height="7"/>
+      <rect x="1004" y="252" width="5" height="7"/><rect x="902" y="240" width="5" height="7"/>
+    </g>
+
+    <text class="mono" x="84" y="92">HELLO, I'M</text>
+    <text class="name" x="80" y="178" fill="url(#ink)">shimmy kohn</text>
+    <text class="tag" x="84" y="226">I build apps end to end, from the database to the home screen.</text>
+
+    <g >
+      <circle class="pulse" cx="96" cy="268" r="6" fill="#22d3b6"/>
+      <circle cx="96" cy="268" r="6" fill="#22d3b6"/>
+      <text class="mono" x="114" y="274">BUILDING ISKA  ·  NEW YORK</text>
+    </g>
+  </g>
+</svg>
