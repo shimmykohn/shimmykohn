@@ -1,0 +1,41 @@
+name: Update banner
+
+on:
+  schedule:
+    - cron: '7 * * * *'
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths: ['banner.template.svg', 'scripts/update-banner.mjs', '.github/workflows/banner.yml']
+
+permissions:
+  contents: write
+
+concurrency:
+  group: banner
+  cancel-in-progress: false
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Fill the banner with current activity
+        run: node scripts/update-banner.mjs
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GH_LOGIN: ${{ github.repository_owner }}
+      - name: Commit if the numbers changed
+        run: |
+          git add banner.svg stats.json
+          if git diff --cached --quiet; then
+            echo "Nothing to commit."
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git commit -m "Update banner activity"
+          git push
