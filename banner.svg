@@ -101,7 +101,7 @@
 
     <!-- live service status: GitHub activity, refreshed by a scheduled job -->
     <circle class="blink" cx="76" cy="348" r="6" fill="#ee352e"/>
-    <text class="led" x="104" y="356"><tspan class="dim">LAST 24H </tspan><tspan class="hot">28</tspan><tspan class="dim"> · 7 DAYS </tspan><tspan class="hot">162</tspan><tspan class="dim"> · YEAR </tspan><tspan class="hot">1,020</tspan><tspan class="dim"> · STREAK </tspan><tspan class="hot">15 DAYS</tspan></text>
+    <text class="led" x="104" y="356"><tspan class="dim">LAST 24H </tspan><tspan class="hot">29</tspan><tspan class="dim"> · 7 DAYS </tspan><tspan class="hot">163</tspan><tspan class="dim"> · YEAR </tspan><tspan class="hot">1,021</tspan><tspan class="dim"> · STREAK </tspan><tspan class="hot">15 DAYS</tspan></text>
     <text class="led dim right" x="1136" y="356">UPDATED 7:52 AM ET</text>
 
     <!-- platform edge and track -->
