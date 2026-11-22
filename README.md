@@ -8,7 +8,7 @@ I'm Shimmy, a developer in New York. I like taking an idea all the way: the data
 
 **[iska](https://iska.app)** is my main thing: client, session and payment tracking for professionals who would rather spend time with clients than with spreadsheets.
 
-**Operations software for The Nuttery NY.** A reporting portal, Windows sync tools for the point of sale and accounting systems, and the automations that tie them together, so the store can see what happened yesterday without anyone exporting a file.
+**Custom software for businesses.** I automate the manual work and build the tools a business actually needs: reporting portals, sync between point of sale and accounting systems, and the automations that tie them together, so nobody has to export a file to see what happened yesterday.
 
 ## On the side
 
